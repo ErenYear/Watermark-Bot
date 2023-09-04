@@ -2,6 +2,7 @@ Pyrogram==1.4.16
 TgCrypto
 hachoir
 Pillow
+ffmpeg-python
 humanfriendly
 motor
 aiofiles
