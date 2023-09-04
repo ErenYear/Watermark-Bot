@@ -13,7 +13,6 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH" "60d92ca6fcc5086d58444d6c24958efd")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
-	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL" "-1001615276723"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
@@ -23,6 +22,7 @@ class Config(object):
 	DATABASE_URL = os.environ.get("DATABASE_URL")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
+	LOG_CHANNEL = -1001615276723
 	USAGE_WATERMARK_ADDER = """
 Hi, I am Video Watermark Adder Bot!
 
