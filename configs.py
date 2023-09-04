@@ -19,7 +19,7 @@ class Config(object):
 	OWNER_ID = int(os.environ.get("OWNER_ID", 5852645041))
 	CAPTION = "By @AHToolsBot"
 	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
-	DATABASE_URL = "mongodb+srv://levi:levi@cluster0.fzaxr2n.mongodb.net/?retryWrites=true&w=majority"
+	DATABASE_URL = "mongodb+srv://levi:levi@cluster0.zmcu29l.mongodb.net/?retryWrites=true&w=majority"
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
 	LOG_CHANNEL = -1001615276723
